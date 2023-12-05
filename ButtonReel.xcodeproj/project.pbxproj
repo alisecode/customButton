@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3143A7F52B1E200A00495187 /* ButtonReelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143A7F42B1E200A00495187 /* ButtonReelApp.swift */; };
-		3143A7F72B1E200A00495187 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143A7F62B1E200A00495187 /* ContentView.swift */; };
+		3143A7F72B1E200A00495187 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143A7F62B1E200A00495187 /* ButtonView.swift */; };
 		3143A7F92B1E200D00495187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3143A7F82B1E200D00495187 /* Assets.xcassets */; };
 		3143A7FC2B1E200D00495187 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3143A7FB2B1E200D00495187 /* Preview Assets.xcassets */; };
+		3143A8032B1E20C100495187 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143A8022B1E20C100495187 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3143A7F12B1E200A00495187 /* ButtonReel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonReel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3143A7F42B1E200A00495187 /* ButtonReelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonReelApp.swift; sourceTree = "<group>"; };
-		3143A7F62B1E200A00495187 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3143A7F62B1E200A00495187 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		3143A7F82B1E200D00495187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3143A7FB2B1E200D00495187 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3143A8022B1E20C100495187 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				3143A7F42B1E200A00495187 /* ButtonReelApp.swift */,
-				3143A7F62B1E200A00495187 /* ContentView.swift */,
+				3143A7F62B1E200A00495187 /* ButtonView.swift */,
+				3143A8022B1E20C100495187 /* Color+Extension.swift */,
 				3143A7F82B1E200D00495187 /* Assets.xcassets */,
 				3143A7FA2B1E200D00495187 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3143A7F72B1E200A00495187 /* ContentView.swift in Sources */,
+				3143A7F72B1E200A00495187 /* ButtonView.swift in Sources */,
+				3143A8032B1E20C100495187 /* Color+Extension.swift in Sources */,
 				3143A7F52B1E200A00495187 /* ButtonReelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +276,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ButtonReel/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ButtonReel/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
